@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/Host"
+    schedule:
+      interval: "daily"
+      time: "05:00"
+  - package-ecosystem: "nuget"
+    directory: "/Host.Tests"
+    schedule:
+      interval: "daily"
+      time: "05:00"
