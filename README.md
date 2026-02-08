@@ -1,5 +1,7 @@
 # Medical Instrument Communication Protocol With FlatBuffers
 
+[![CI](https://github.com/Keel-Inc/FlatBuffersInstrumentProtocol/actions/workflows/ci.yml/badge.svg)](https://github.com/Keel-Inc/FlatBuffersInstrumentProtocol/actions/workflows/ci.yml)
+
 This repository contains the FlatBuffers schema definition for a communication protocol between an embedded medical instrument and its host application.
 
 ## Overview
