@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "nuget"
     directory: "/Host"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all-dependencies:
         patterns:
@@ -11,7 +11,7 @@ updates:
   - package-ecosystem: "nuget"
     directory: "/Host.Tests"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all-dependencies:
         patterns:
@@ -20,7 +20,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all-dependencies:
         patterns:
